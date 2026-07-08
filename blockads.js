@@ -101,7 +101,7 @@ const css = `
     max-width: 0pt !important;
     max-height: 0pt !important;
 }`;
-function theCss()
+function theCSS()
 {
     const s = document.createElement("style");
     s.textContent = css;
