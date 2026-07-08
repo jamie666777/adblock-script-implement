@@ -2,6 +2,8 @@
 
 document.addEventListener("DOMContentLoaded", () =>
 {
+    theCSS();
+    
     const imgs = document.getElementsByTagName("img");
     for (const img of imgs)
     {
