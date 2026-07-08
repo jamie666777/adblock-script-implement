@@ -23,6 +23,11 @@ document.addEventListener("DOMContentLoaded", () =>
 
 function isAdUrl(check)
 {
+    if (check.includes("ad"))
+    {
+        return true;
+    }
+    
     for (let i = 0; i <= adUrls.length; i++)
     {
         if (check.includes(adUrls[i]) || check.includes("ad." + adUrls[i]))
